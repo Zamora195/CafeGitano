@@ -62,6 +62,11 @@ nav ul li a:hover{
     text-align: center;
     border-radius: 35px;
     margin: 50px;
+    border: 5px solid #e9b870;
+}
+
+#productos article:hover{
+    background-color:#5a3825
 }
 
 #productos img{
@@ -107,6 +112,11 @@ nav ul li a:hover{
     text-align: center;
     border-radius: 100px;
     margin: 35px;
+    border: 5px solid #e9b870;
+}
+
+#horarios:hover{
+    background-color: #5a3825;
 }
 
 #horarios h2{
@@ -148,6 +158,11 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color:#5a3825;
+    border: 5px solid #e9b870;
+}
+
 footer{
     text-align: center;
     padding: 20px;
@@ -170,6 +185,11 @@ footer{
     padding: 20px;
     border-radius: 35px;
     margin: 50px;
+    border: 5px solid #e9b870;
+}
+
+#promociones article:hover{
+    background-color: #5a3825;
 }
 
 #promociones img{
