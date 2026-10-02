@@ -30,12 +30,15 @@ nav ul{
     list-style-type: none;
     display:flex;
     justify-content: center;
-    gap:70px;
+    gap: 100px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color:#432918;
+    color:#f7ecdb;
+    background-color: #432918;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 
 #productos{
@@ -52,6 +55,7 @@ nav ul li a{
     padding: 20px;
     text-align: center;
     border-radius: 35px;
+    margin: 50px;
 }
 
 #productos img{
@@ -62,9 +66,27 @@ nav ul li a{
     margin: 0 auto;
 }
 
+#inicio h2{
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
+}
+
+#inicio p{
+    margin: 15px;
+    text-align: center;
+}
+
+#productos h2{
+    font-size: 40px;
+    margin: 35px;
+    width: 100%;
+    text-align: center;
+}
+
 #productos h3{
     font-size: 35px;
-    margin: 15px;
+    margin: 35px;
 }
 
 .precio{
@@ -78,6 +100,7 @@ nav ul li a{
     padding: 40px 20px;
     text-align: center;
     border-radius: 100px;
+    margin: 35px;
 }
 
 #horarios h2{
@@ -124,4 +147,42 @@ footer{
     padding: 20px;
     background-color: #432918;
     color: white;
+}
+
+#promociones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#promociones article{
+    background-color:#432918;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 35px;
+    margin: 50px;
+}
+
+#promociones img{
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+#promociones h2{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+
+#promociones p{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
 }
