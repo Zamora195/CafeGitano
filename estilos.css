@@ -35,10 +35,16 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color:#f7ecdb;
-    background-color: #432918;
+    color:#432918;
+    background-color: #f7ecdb;
     padding: 10px 20px;
     border-radius: 25px;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    background-color: #432918;
+    color:#f7ecdb;
 }
 
 #productos{
